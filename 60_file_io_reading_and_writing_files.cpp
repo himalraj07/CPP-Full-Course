@@ -23,7 +23,7 @@ int main()
     string st2;
 
     // Opening files using constructor and writing it
-    ofstream out("sample60.txt"); // Write operation
+    ofstream out("60_sample60.txt"); // Write operation
     out << st;
 
     // Opening files using constructor and reading it

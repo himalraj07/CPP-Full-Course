@@ -10,14 +10,14 @@ using namespace std;
 int main()
 {
     ofstream out;
-    out.open("sample60.txt");
+    out.open("60_sample60.txt");
     out << "This is me\n";
     out << "Himal Raj Bhusal.";
     out.close();
 
     ifstream in;
     string st, st2;
-    in.open("sample60b.txt");
+    in.open("60_sample60b.txt");
     // in >> st;
     // cout << st << st2;
 

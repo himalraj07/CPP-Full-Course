@@ -9,7 +9,7 @@ using namespace std;
 int main()
 {
     // Connecting our file with hout stream
-    ofstream hout("sample60.txt");
+    ofstream hout("60_sample60.txt");
 
     // Creating a name string and filling it with the same string entered by the user
     string name;
@@ -22,7 +22,7 @@ int main()
     // Closing the file
     hout.close();
 
-    ifstream hin("sample60.txt");
+    ifstream hin("60_sample60.txt");
     string content;
     hin >> content;
     cout << "The content of this file is: " << content;
